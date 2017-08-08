@@ -100,7 +100,11 @@ void WebCamApp::takePictureEvent()
 {
 	wnd = new PictureDialog(this);
 	wnd->setImg(screen);
-	wnd->show();
+	wnd->setWindowModality(Qt::ApplicationModal);
+	myPlayer->stopVideo();
+	wnd->exec();
+	myPlayer->startVideo();
+	//wnd->show();
 	//DialogWnd * wnd = new DialogWnd(this);
 	//wnd:
 	//wnd = &newWnd;

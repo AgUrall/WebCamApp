@@ -5,13 +5,13 @@
 #include "ui_webcamapp.h"
 #include "picturedialog.hpp"
 #include <videoPlayer.h>
-#include <opencv2\videoio\videoio_c.h>
-#include <opencv2\highgui\highgui.hpp>
+#include <C:\Users\Михаил\Documents\OpenCV\opencv\build\include\opencv2\videoio\videoio_c.h>
+#include <C:\Users\Михаил\Documents\OpenCV\opencv\build\include\opencv2\highgui\highgui.hpp>
 #include <stdlib.h>
 #include <stdio.h>
 #include <string>
 #include <vector>
-#include <videoInput.h>
+//#include <C:\Users\Михаил\Documents\OpenCV\opencv\build\include\opencv2\videoInput.h>
 
 class WebCamApp : public QMainWindow
 {

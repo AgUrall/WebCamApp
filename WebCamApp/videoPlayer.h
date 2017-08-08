@@ -5,9 +5,9 @@
 #include <QThread>
 #include <QImage>
 #include <QWaitCondition>
-#include <opencv2/core/core.hpp>
-#include <opencv2/imgproc/imgproc.hpp>
-#include <opencv2/highgui/highgui.hpp>
+#include <C:\Users\Михаил\Documents\OpenCV\opencv\build\include\opencv2/core/core.hpp>
+#include <C:\Users\Михаил\Documents\OpenCV\opencv\build\include\opencv2/imgproc/imgproc.hpp>
+#include <C:\Users\Михаил\Documents\OpenCV\opencv\build\include\opencv2/highgui/highgui.hpp>
 
 class CamPlayer : public QThread
 {

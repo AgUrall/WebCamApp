@@ -4,6 +4,7 @@ PictureDialog::PictureDialog(QImage  img, QWidget * parent) : QDialog(parent) {
 	ui.label->setAlignment(Qt::AlignCenter);
 	ui.label->setPixmap(QPixmap::fromImage(img).scaled(ui.label->size(),
 	Qt::KeepAspectRatio, Qt::FastTransformation));
+	QDialog::setModal(true);
 	ui.setupUi(this);
 	connect(ui.yesButton, SIGNAL(clicked()), this, SLOT(yesButtonEvent()));
 	connect(ui.noButton, SIGNAL(clicked()), this, SLOT(noButtonEvent()));
