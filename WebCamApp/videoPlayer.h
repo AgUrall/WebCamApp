@@ -18,7 +18,6 @@ class CamPlayer : public QThread
 	cv::Mat frame;
 	int frameRate;
 	cv::VideoCapture capture;
-	//CvCapture* cap;
 	cv::Mat RGBframe;
 	QImage img;
 signals:
