@@ -11,7 +11,7 @@
 #include <stdio.h>
 #include <string>
 #include <vector>
-//#include <C:\Users\Михаил\Documents\OpenCV\opencv\build\include\opencv2\videoInput.h>
+
 
 class WebCamApp : public QMainWindow
 {

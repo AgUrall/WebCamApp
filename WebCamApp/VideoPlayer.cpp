@@ -9,7 +9,6 @@ CamPlayer::~CamPlayer()
 {
 	mutex.lock();
 	stop = true;
-	//cvReleaseCapture(&capture);
 	capture.release();
 	condition.wakeOne();
 	mutex.unlock();
