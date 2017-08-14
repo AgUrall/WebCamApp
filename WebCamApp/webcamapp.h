@@ -4,13 +4,14 @@
 #include <QtWidgets/QMainWindow>
 #include "ui_webcamapp.h"
 #include "picturedialog.hpp"
-#include <videoPlayer.h>
+#include <camPlayer.h>
 #include <C:\Users\Михаил\Documents\OpenCV\opencv\build\include\opencv2\videoio\videoio_c.h>
 #include <C:\Users\Михаил\Documents\OpenCV\opencv\build\include\opencv2\highgui\highgui.hpp>
 #include <stdlib.h>
 #include <stdio.h>
 #include <string>
 #include <vector>
+#include "libs\videoInput\videoInput.h"
 
 
 class WebCamApp : public QMainWindow
@@ -34,9 +35,6 @@ private slots:
 	void updatePlayerUI(QImage img);
 	//sloat for combobox, choose camera for video input
 	void onItemChange();
-	//unused now
-	void playPauseEvent();
-
 };
 
 #endif // WEBCAMAPP_H

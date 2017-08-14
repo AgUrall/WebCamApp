@@ -50,15 +50,6 @@
     <ClCompile Include="GeneratedFiles\qrc_webcamapp.cpp">
       <Filter>Generated Files</Filter>
     </ClCompile>
-    <ClCompile Include="GeneratedFiles\Debug\moc_videoPlayer.cpp">
-      <Filter>Generated Files\Debug</Filter>
-    </ClCompile>
-    <ClCompile Include="GeneratedFiles\Release\moc_videoPlayer.cpp">
-      <Filter>Generated Files\Release</Filter>
-    </ClCompile>
-    <ClCompile Include="VideoPlayer.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="picturedialog.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -67,6 +58,18 @@
     </ClCompile>
     <ClCompile Include="GeneratedFiles\Release\moc_picturedialog.cpp">
       <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Debug\moc_camPlayer.cpp">
+      <Filter>Generated Files\Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneratedFiles\Release\moc_camPlayer.cpp">
+      <Filter>Generated Files\Release</Filter>
+    </ClCompile>
+    <ClCompile Include="camPlayer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="libs\videoInput\videoInput.cpp">
+      <Filter>Resource Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -79,14 +82,14 @@
     <CustomBuild Include="webcamapp.qrc">
       <Filter>Resource Files</Filter>
     </CustomBuild>
-    <CustomBuild Include="videoPlayer.h">
-      <Filter>Header Files</Filter>
-    </CustomBuild>
     <CustomBuild Include="picturedialog.hpp">
       <Filter>Header Files</Filter>
     </CustomBuild>
     <CustomBuild Include="picturedialog.ui">
       <Filter>Form Files</Filter>
+    </CustomBuild>
+    <CustomBuild Include="camPlayer.h">
+      <Filter>Header Files</Filter>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
@@ -96,5 +99,49 @@
     <ClInclude Include="GeneratedFiles\ui_picturedialog.h">
       <Filter>Generated Files</Filter>
     </ClInclude>
+    <ClInclude Include="libs\videoInput\videoInput.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+    <ClInclude Include="libs\glfw\glfw.h">
+      <Filter>Resource Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="requiredLibs\dxguid.lib">
+      <Filter>Resource Files</Filter>
+    </Library>
+    <Library Include="requiredLibs\GlAux.Lib">
+      <Filter>Resource Files</Filter>
+    </Library>
+    <Library Include="requiredLibs\glfw.lib">
+      <Filter>Resource Files</Filter>
+    </Library>
+    <Library Include="requiredLibs\GlU32.Lib">
+      <Filter>Resource Files</Filter>
+    </Library>
+    <Library Include="requiredLibs\ole32.lib">
+      <Filter>Resource Files</Filter>
+    </Library>
+    <Library Include="requiredLibs\oleaut32.lib">
+      <Filter>Resource Files</Filter>
+    </Library>
+    <Library Include="requiredLibs\OpenGL32.Lib">
+      <Filter>Resource Files</Filter>
+    </Library>
+    <Library Include="requiredLibs\quartz.lib">
+      <Filter>Resource Files</Filter>
+    </Library>
+    <Library Include="requiredLibs\strmbasd.lib">
+      <Filter>Resource Files</Filter>
+    </Library>
+    <Library Include="requiredLibs\strmbase.lib">
+      <Filter>Resource Files</Filter>
+    </Library>
+    <Library Include="requiredLibs\strmiids.lib">
+      <Filter>Resource Files</Filter>
+    </Library>
+    <Library Include="requiredLibs\uuid.lib">
+      <Filter>Resource Files</Filter>
+    </Library>
   </ItemGroup>
 </Project>

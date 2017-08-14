@@ -1,0 +1,198 @@
+﻿'WebCamApp.exe' (Win32): Loaded 'C:\Users\Михаил\Documents\Visual Studio 2015\Projects\WebCamApp\x64\Debug\WebCamApp.exe'. Symbols loaded.
+'WebCamApp.exe' (Win32): Loaded 'C:\Windows\System32\ntdll.dll'. Symbols loaded.
+'WebCamApp.exe' (Win32): Loaded 'C:\Windows\System32\kernel32.dll'. Symbols loaded.
+'WebCamApp.exe' (Win32): Loaded 'C:\Windows\System32\KernelBase.dll'. Symbols loaded.
+'WebCamApp.exe' (Win32): Loaded 'C:\Qt\Qt5.6.2\5.6\msvc2015_64\bin\Qt5Cored.dll'. Symbols loaded.
+'WebCamApp.exe' (Win32): Loaded 'C:\Qt\Qt5.6.2\5.6\msvc2015_64\bin\Qt5Guid.dll'. Symbols loaded.
+'WebCamApp.exe' (Win32): Loaded 'C:\Qt\Qt5.6.2\5.6\msvc2015_64\bin\Qt5Widgetsd.dll'. Symbols loaded.
+'WebCamApp.exe' (Win32): Loaded 'C:\opencv\build\x64\vc14\bin\opencv_world320.dll'. Cannot find or open the PDB file.
+'WebCamApp.exe' (Win32): Loaded 'C:\Windows\System32\ole32.dll'. Symbols loaded.
+'WebCamApp.exe' (Win32): Loaded 'C:\Windows\System32\oleaut32.dll'. Symbols loaded.
+'WebCamApp.exe' (Win32): Loaded 'C:\Windows\System32\msvcp140d.dll'. Symbols loaded.
+'WebCamApp.exe' (Win32): Loaded 'C:\Windows\System32\vcruntime140d.dll'. Symbols loaded.
+'WebCamApp.exe' (Win32): Loaded 'C:\Windows\System32\ucrtbased.dll'. Symbols loaded.
+'WebCamApp.exe' (Win32): Loaded 'C:\Windows\System32\shell32.dll'. Cannot find or open the PDB file.
+'WebCamApp.exe' (Win32): Loaded 'C:\Windows\System32\user32.dll'. Symbols loaded.
+'WebCamApp.exe' (Win32): Loaded 'C:\Windows\System32\advapi32.dll'. Symbols loaded.
+'WebCamApp.exe' (Win32): Loaded 'C:\Windows\System32\ws2_32.dll'. Symbols loaded.
+'WebCamApp.exe' (Win32): Loaded 'C:\Windows\System32\mpr.dll'. Symbols loaded.
+'WebCamApp.exe' (Win32): Loaded 'C:\Windows\System32\gdi32.dll'. Symbols loaded.
+'WebCamApp.exe' (Win32): Loaded 'C:\Windows\System32\comdlg32.dll'. Symbols loaded.
+'WebCamApp.exe' (Win32): Loaded 'C:\Windows\System32\msvfw32.dll'. Symbols loaded.
+'WebCamApp.exe' (Win32): Loaded 'C:\Windows\System32\avifil32.dll'. Symbols loaded.
+'WebCamApp.exe' (Win32): Loaded 'C:\Windows\System32\avicap32.dll'. Symbols loaded.
+'WebCamApp.exe' (Win32): Loaded 'C:\Windows\System32\msvcp140.dll'. Symbols loaded.
+'WebCamApp.exe' (Win32): Loaded 'C:\Windows\System32\concrt140.dll'. Symbols loaded.
+'WebCamApp.exe' (Win32): Loaded 'C:\Windows\System32\vcruntime140.dll'. Symbols loaded.
+'WebCamApp.exe' (Win32): Loaded 'C:\Windows\System32\api-ms-win-crt-runtime-l1-1-0.dll'. Symbols loaded.
+'WebCamApp.exe' (Win32): Loaded 'C:\Windows\System32\api-ms-win-crt-string-l1-1-0.dll'. Symbols loaded.
+'WebCamApp.exe' (Win32): Loaded 'C:\Windows\System32\api-ms-win-crt-heap-l1-1-0.dll'. Symbols loaded.
+'WebCamApp.exe' (Win32): Loaded 'C:\Windows\System32\api-ms-win-crt-stdio-l1-1-0.dll'. Symbols loaded.
+'WebCamApp.exe' (Win32): Loaded 'C:\Windows\System32\api-ms-win-crt-math-l1-1-0.dll'. Symbols loaded.
+'WebCamApp.exe' (Win32): Loaded 'C:\Windows\System32\api-ms-win-crt-convert-l1-1-0.dll'. Symbols loaded.
+'WebCamApp.exe' (Win32): Loaded 'C:\Windows\System32\api-ms-win-crt-environment-l1-1-0.dll'. Symbols loaded.
+'WebCamApp.exe' (Win32): Loaded 'C:\Windows\System32\api-ms-win-crt-utility-l1-1-0.dll'. Symbols loaded.
+'WebCamApp.exe' (Win32): Loaded 'C:\Windows\System32\api-ms-win-crt-filesystem-l1-1-0.dll'. Symbols loaded.
+'WebCamApp.exe' (Win32): Loaded 'C:\Windows\System32\api-ms-win-crt-locale-l1-1-0.dll'. Symbols loaded.
+'WebCamApp.exe' (Win32): Loaded 'C:\Windows\System32\api-ms-win-crt-time-l1-1-0.dll'. Symbols loaded.
+'WebCamApp.exe' (Win32): Loaded 'C:\Windows\System32\combase.dll'. Symbols loaded.
+'WebCamApp.exe' (Win32): Loaded 'C:\Windows\System32\msvcrt.dll'. Symbols loaded.
+'WebCamApp.exe' (Win32): Loaded 'C:\Windows\System32\rpcrt4.dll'. Symbols loaded.
+'WebCamApp.exe' (Win32): Loaded 'C:\Windows\System32\sechost.dll'. Symbols loaded.
+'WebCamApp.exe' (Win32): Loaded 'C:\Windows\System32\shlwapi.dll'. Symbols loaded.
+'WebCamApp.exe' (Win32): Loaded 'C:\Windows\System32\nsi.dll'. Symbols loaded.
+'WebCamApp.exe' (Win32): Loaded 'C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_5.82.9600.17810_none_34ae2abd958aedeb\comctl32.dll'. Symbols loaded.
+'WebCamApp.exe' (Win32): Loaded 'C:\Windows\System32\winmm.dll'. Symbols loaded.
+'WebCamApp.exe' (Win32): Loaded 'C:\Windows\System32\msacm32.dll'. Symbols loaded.
+'WebCamApp.exe' (Win32): Loaded 'C:\Windows\System32\version.dll'. Symbols loaded.
+'WebCamApp.exe' (Win32): Loaded 'C:\Windows\System32\api-ms-win-crt-multibyte-l1-1-0.dll'. Symbols loaded.
+'WebCamApp.exe' (Win32): Loaded 'C:\Windows\System32\sspicli.dll'. Symbols loaded.
+'WebCamApp.exe' (Win32): Loaded 'C:\Windows\System32\winmmbase.dll'. Symbols loaded.
+'WebCamApp.exe' (Win32): Loaded 'C:\Windows\System32\ucrtbase.dll'. Symbols loaded.
+'WebCamApp.exe' (Win32): Loaded 'C:\Windows\System32\SHCore.dll'. Symbols loaded.
+'WebCamApp.exe' (Win32): Loaded 'C:\Windows\System32\cfgmgr32.dll'. Symbols loaded.
+'WebCamApp.exe' (Win32): Loaded 'C:\Windows\System32\devobj.dll'. Symbols loaded.
+'WebCamApp.exe' (Win32): Loaded 'C:\Windows\System32\imm32.dll'. Symbols loaded.
+'WebCamApp.exe' (Win32): Loaded 'C:\Windows\System32\msctf.dll'. Symbols loaded.
+'WebCamApp.exe' (Win32): Loaded 'C:\Windows\System32\cryptbase.dll'. Symbols loaded.
+'WebCamApp.exe' (Win32): Loaded 'C:\Windows\System32\bcryptprimitives.dll'. Symbols loaded.
+'WebCamApp.exe' (Win32): Loaded 'C:\Windows\System32\profapi.dll'. Symbols loaded.
+'WebCamApp.exe' (Win32): Loaded 'C:\Qt\Qt5.6.2\5.6\msvc2015_64\plugins\platforms\qwindowsd.dll'. Symbols loaded.
+'WebCamApp.exe' (Win32): Loaded 'C:\Windows\System32\kernel.appcore.dll'. Symbols loaded.
+'WebCamApp.exe' (Win32): Loaded 'C:\Windows\System32\uxtheme.dll'. Symbols loaded.
+'WebCamApp.exe' (Win32): Loaded 'C:\Windows\System32\dwmapi.dll'. Symbols loaded.
+'WebCamApp.exe' (Win32): Loaded 'C:\Windows\System32\dciman32.dll'. Symbols loaded.
+'WebCamApp.exe' (Win32): Loaded 'C:\Windows\System32\MMDevAPI.dll'. Symbols loaded.
+'WebCamApp.exe' (Win32): Loaded 'C:\Windows\System32\wdmaud.drv'. Symbols loaded.
+'WebCamApp.exe' (Win32): Loaded 'C:\Windows\System32\ksuser.dll'. Symbols loaded.
+'WebCamApp.exe' (Win32): Loaded 'C:\Windows\System32\avrt.dll'. Symbols loaded.
+'WebCamApp.exe' (Win32): Loaded 'C:\Windows\System32\AudioSes.dll'. Symbols loaded.
+'WebCamApp.exe' (Win32): Loaded 'C:\Windows\System32\powrprof.dll'. Symbols loaded.
+'WebCamApp.exe' (Win32): Loaded 'C:\Windows\System32\msacm32.drv'. Symbols loaded.
+'WebCamApp.exe' (Win32): Loaded 'C:\Windows\System32\midimap.dll'. Symbols loaded.
+'WebCamApp.exe' (Win32): Loaded 'C:\Windows\System32\vfwwdm32.dll'. Symbols loaded.
+'WebCamApp.exe' (Win32): Loaded 'C:\Windows\System32\clbcatq.dll'. Symbols loaded.
+'WebCamApp.exe' (Win32): Loaded 'C:\Windows\System32\devenum.dll'. Symbols loaded.
+'WebCamApp.exe' (Win32): Loaded 'C:\Windows\System32\setupapi.dll'. Symbols loaded.
+'WebCamApp.exe' (Win32): Loaded 'C:\Windows\System32\ntmarta.dll'. Symbols loaded.
+'WebCamApp.exe' (Win32): Loaded 'C:\Windows\System32\wintrust.dll'. Symbols loaded.
+'WebCamApp.exe' (Win32): Loaded 'C:\Windows\System32\crypt32.dll'. Cannot find or open the PDB file.
+'WebCamApp.exe' (Win32): Loaded 'C:\Windows\System32\msasn1.dll'. Symbols loaded.
+'WebCamApp.exe' (Win32): Loaded 'C:\Windows\System32\msdmo.dll'. Symbols loaded.
+'WebCamApp.exe' (Win32): Loaded 'C:\Windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.9600.18006_none_623f33d3ecbe86e8\comctl32.dll'. Symbols loaded.
+'WebCamApp.exe' (Win32): Loaded 'C:\Windows\System32\ksproxy.ax'. Symbols loaded.
+'WebCamApp.exe' (Win32): Loaded 'C:\Windows\System32\d3d9.dll'. Symbols loaded.
+'WebCamApp.exe' (Win32): Loaded 'C:\Windows\System32\vidcap.ax'. Symbols loaded.
+'WebCamApp.exe' (Win32): Loaded 'C:\Windows\System32\Kswdmcap.ax'. Symbols loaded.
+'WebCamApp.exe' (Win32): Loaded 'C:\Windows\System32\mfc42.dll'. Symbols loaded.
+'WebCamApp.exe' (Win32): Loaded 'C:\Windows\System32\odbc32.dll'. Symbols loaded.
+'WebCamApp.exe' (Win32): Loaded 'C:\Windows\System32\qcap.dll'. Symbols loaded.
+'WebCamApp.exe' (Win32): Loaded 'C:\Windows\System32\quartz.dll'. Symbols loaded.
+'WebCamApp.exe' (Win32): Loaded 'C:\Windows\System32\msyuv.dll'. Symbols loaded.
+'WebCamApp.exe' (Win32): Unloaded 'C:\Windows\System32\msyuv.dll'
+'WebCamApp.exe' (Win32): Loaded 'C:\Windows\System32\msyuv.dll'. Symbols loaded.
+'WebCamApp.exe' (Win32): Unloaded 'C:\Windows\System32\msyuv.dll'
+'WebCamApp.exe' (Win32): Loaded 'C:\Windows\System32\iyuv_32.dll'. Symbols loaded.
+'WebCamApp.exe' (Win32): Unloaded 'C:\Windows\System32\iyuv_32.dll'
+'WebCamApp.exe' (Win32): Loaded 'C:\Windows\System32\msyuv.dll'. Symbols loaded.
+'WebCamApp.exe' (Win32): Unloaded 'C:\Windows\System32\msyuv.dll'
+'WebCamApp.exe' (Win32): Loaded 'C:\Windows\System32\tsbyuv.dll'. Symbols loaded.
+'WebCamApp.exe' (Win32): Unloaded 'C:\Windows\System32\tsbyuv.dll'
+'WebCamApp.exe' (Win32): Loaded 'C:\Windows\System32\msyuv.dll'. Symbols loaded.
+'WebCamApp.exe' (Win32): Unloaded 'C:\Windows\System32\msyuv.dll'
+'WebCamApp.exe' (Win32): Loaded 'C:\Windows\System32\iyuv_32.dll'. Symbols loaded.
+'WebCamApp.exe' (Win32): Unloaded 'C:\Windows\System32\iyuv_32.dll'
+'WebCamApp.exe' (Win32): Loaded 'C:\Windows\System32\msrle32.dll'. Symbols loaded.
+'WebCamApp.exe' (Win32): Unloaded 'C:\Windows\System32\msrle32.dll'
+'WebCamApp.exe' (Win32): Loaded 'C:\Windows\System32\msvidc32.dll'. Symbols loaded.
+'WebCamApp.exe' (Win32): Unloaded 'C:\Windows\System32\msvidc32.dll'
+'WebCamApp.exe' (Win32): Loaded 'C:\Windows\System32\msyuv.dll'. Symbols loaded.
+'WebCamApp.exe' (Win32): Loaded 'C:\Windows\System32\OpenCL.DLL'. Cannot find or open the PDB file.
+'WebCamApp.exe' (Win32): Loaded 'C:\Windows\System32\IntelOpenCL64.dll'. Cannot find or open the PDB file.
+'WebCamApp.exe' (Win32): Loaded 'C:\Program Files (x86)\Common Files\Intel\OpenCL\bin\x64\intelocl64.dll'. Cannot find or open the PDB file.
+'WebCamApp.exe' (Win32): Loaded 'C:\Program Files (x86)\Common Files\Intel\OpenCL\bin\x64\task_executor64.dll'. Cannot find or open the PDB file.
+'WebCamApp.exe' (Win32): Loaded 'C:\Windows\System32\opengl32.dll'. Symbols loaded.
+'WebCamApp.exe' (Win32): Loaded 'C:\Windows\System32\glu32.dll'. Symbols loaded.
+'WebCamApp.exe' (Win32): Loaded 'C:\Windows\System32\ddraw.dll'. Symbols loaded.
+'WebCamApp.exe' (Win32): Loaded 'C:\Program Files (x86)\Common Files\Intel\OpenCL\bin\x64\cpu_device64.dll'. Cannot find or open the PDB file.
+'WebCamApp.exe' (Win32): Loaded 'C:\Windows\System32\igdrcl64.dll'. Cannot find or open the PDB file.
+'WebCamApp.exe' (Win32): Loaded 'C:\Windows\System32\dxgi.dll'. Symbols loaded.
+'WebCamApp.exe' (Win32): Loaded 'C:\Windows\System32\nvinitx.dll'. Cannot find or open the PDB file.
+'WebCamApp.exe' (Win32): Unloaded 'C:\Windows\System32\nvinitx.dll'
+'WebCamApp.exe' (Win32): Loaded 'C:\Windows\System32\igdfcl64.dll'. Cannot find or open the PDB file.
+'WebCamApp.exe' (Win32): Loaded 'C:\Windows\System32\dbghelp.dll'. Symbols loaded.
+'WebCamApp.exe' (Win32): Loaded 'C:\Windows\System32\igdbcl64.dll'. Cannot find or open the PDB file.
+'WebCamApp.exe' (Win32): Loaded 'C:\Windows\System32\igdusc64.dll'. Cannot find or open the PDB file.
+'WebCamApp.exe' (Win32): Loaded 'C:\Windows\System32\nvopencl.dll'. Cannot find or open the PDB file.
+'WebCamApp.exe' (Win32): Loaded 'C:\Windows\System32\nvapi64.dll'. Cannot find or open the PDB file.
+The thread 0x3474 has exited with code -2147024637 (0x80070103).
+'WebCamApp.exe' (Win32): Unloaded 'C:\Windows\System32\vfwwdm32.dll'
+The thread 0x510 has exited with code 0 (0x0).
+'WebCamApp.exe' (Win32): Unloaded 'C:\Windows\System32\msyuv.dll'
+'WebCamApp.exe' (Win32): Loaded 'C:\Windows\System32\qedit.dll'. Symbols loaded.
+'WebCamApp.exe' (Win32): Loaded 'C:\Windows\WinSxS\amd64_microsoft.windows.gdiplus_6595b64144ccf1df_1.1.9600.18696_none_9333287b4748e6ab\GdiPlus.dll'. Symbols loaded.
+'WebCamApp.exe' (Win32): Loaded 'C:\Windows\System32\igdumdim64.dll'. Cannot find or open the PDB file.
+'WebCamApp.exe' (Win32): Unloaded 'C:\Windows\System32\igdumdim64.dll'
+'WebCamApp.exe' (Win32): Loaded 'C:\Windows\System32\igdumdim64.dll'. Cannot find or open the PDB file.
+'WebCamApp.exe' (Win32): Unloaded 'C:\Windows\System32\igdumdim64.dll'
+'WebCamApp.exe' (Win32): Loaded 'C:\Windows\System32\msyuv.dll'. Symbols loaded.
+The thread 0x3554 has exited with code 0 (0x0).
+'WebCamApp.exe' (Win32): Unloaded 'C:\Windows\System32\msyuv.dll'
+The thread 0x1a54 has exited with code 0 (0x0).
+'WebCamApp.exe' (Win32): Loaded 'C:\Windows\System32\igdumdim64.dll'. Cannot find or open the PDB file.
+'WebCamApp.exe' (Win32): Unloaded 'C:\Windows\System32\igdumdim64.dll'
+'WebCamApp.exe' (Win32): Loaded 'C:\Windows\System32\igdumdim64.dll'. Cannot find or open the PDB file.
+'WebCamApp.exe' (Win32): Unloaded 'C:\Windows\System32\igdumdim64.dll'
+'WebCamApp.exe' (Win32): Loaded 'C:\Windows\System32\msyuv.dll'. Symbols loaded.
+The thread 0x2ac0 has exited with code 0 (0x0).
+'WebCamApp.exe' (Win32): Unloaded 'C:\Windows\System32\msyuv.dll'
+The thread 0x384c has exited with code 0 (0x0).
+'WebCamApp.exe' (Win32): Loaded 'C:\Windows\System32\igdumdim64.dll'. Cannot find or open the PDB file.
+'WebCamApp.exe' (Win32): Unloaded 'C:\Windows\System32\igdumdim64.dll'
+'WebCamApp.exe' (Win32): Loaded 'C:\Windows\System32\igdumdim64.dll'. Cannot find or open the PDB file.
+'WebCamApp.exe' (Win32): Unloaded 'C:\Windows\System32\igdumdim64.dll'
+'WebCamApp.exe' (Win32): Loaded 'C:\Windows\System32\msyuv.dll'. Symbols loaded.
+'WebCamApp.exe' (Win32): Loaded 'C:\Windows\System32\cryptsp.dll'. Symbols loaded.
+'WebCamApp.exe' (Win32): Loaded 'C:\Windows\System32\rsaenh.dll'. Symbols loaded.
+'WebCamApp.exe' (Win32): Loaded 'C:\Windows\System32\bcrypt.dll'. Symbols loaded.
+The thread 0x2e2c has exited with code 0 (0x0).
+'WebCamApp.exe' (Win32): Unloaded 'C:\Windows\System32\msyuv.dll'
+The thread 0xd10 has exited with code 0 (0x0).
+'WebCamApp.exe' (Win32): Loaded 'C:\Windows\System32\igdumdim64.dll'. Cannot find or open the PDB file.
+'WebCamApp.exe' (Win32): Unloaded 'C:\Windows\System32\igdumdim64.dll'
+'WebCamApp.exe' (Win32): Loaded 'C:\Windows\System32\igdumdim64.dll'. Cannot find or open the PDB file.
+'WebCamApp.exe' (Win32): Unloaded 'C:\Windows\System32\igdumdim64.dll'
+'WebCamApp.exe' (Win32): Loaded 'C:\Windows\System32\msyuv.dll'. Symbols loaded.
+The thread 0x4b68 has exited with code 0 (0x0).
+'WebCamApp.exe' (Win32): Unloaded 'C:\Windows\System32\msyuv.dll'
+The thread 0x3370 has exited with code 0 (0x0).
+'WebCamApp.exe' (Win32): Loaded 'C:\Windows\System32\igdumdim64.dll'. Cannot find or open the PDB file.
+'WebCamApp.exe' (Win32): Unloaded 'C:\Windows\System32\igdumdim64.dll'
+'WebCamApp.exe' (Win32): Loaded 'C:\Windows\System32\igdumdim64.dll'. Cannot find or open the PDB file.
+'WebCamApp.exe' (Win32): Unloaded 'C:\Windows\System32\igdumdim64.dll'
+'WebCamApp.exe' (Win32): Loaded 'C:\Windows\System32\msyuv.dll'. Symbols loaded.
+The thread 0x2f60 has exited with code 0 (0x0).
+The thread 0x40f4 has exited with code 0 (0x0).
+The thread 0x2c74 has exited with code 0 (0x0).
+The thread 0x4b4 has exited with code 0 (0x0).
+The thread 0x3f58 has exited with code 0 (0x0).
+The thread 0xc14 has exited with code 0 (0x0).
+'WebCamApp.exe' (Win32): Unloaded 'C:\Windows\System32\msyuv.dll'
+The thread 0x3758 has exited with code 0 (0x0).
+The thread 0x42f0 has exited with code 0 (0x0).
+The thread 0x3690 has exited with code 0 (0x0).
+The thread 0x3650 has exited with code 0 (0x0).
+The thread 0x4428 has exited with code 0 (0x0).
+The thread 0x4498 has exited with code 0 (0x0).
+The thread 0x4724 has exited with code 0 (0x0).
+The thread 0x4304 has exited with code 0 (0x0).
+The thread 0x34ac has exited with code 0 (0x0).
+The thread 0x443c has exited with code 0 (0x0).
+The thread 0x383c has exited with code 0 (0x0).
+The thread 0x40b8 has exited with code 0 (0x0).
+The thread 0x3d3c has exited with code 0 (0x0).
+The thread 0x4150 has exited with code 0 (0x0).
+The thread 0x184c has exited with code 0 (0x0).
+The thread 0x2248 has exited with code 0 (0x0).
+The thread 0x4978 has exited with code 0 (0x0).
+The program '[17296] WebCamApp.exe' has exited with code 0 (0x0).
