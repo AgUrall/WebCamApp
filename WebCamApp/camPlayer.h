@@ -16,13 +16,11 @@ class CamPlayer : public QThread
 	bool stop;
 	QMutex mutex;
 	QWaitCondition condition;
-	cv::Mat frame;
 	int frameRate;
 	cv::VideoCapture capture;
 	videoInput VI;
-	cv::Mat RGBframe;
 	QImage img;
-	int deviceId;
+	int deviceId = -1;
 signals:
 	//Signal to output frame to be displayed
 	void processedImage(const QImage &image);
@@ -37,6 +35,5 @@ public:
 	void stopVideo();
 	bool isStopped() const;
 	bool captured(cv::Mat image, int deviceId);
-	//QImage overDraw(QImage & img);
 };
 #endif
