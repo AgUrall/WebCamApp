@@ -29,12 +29,14 @@ private:
 	QImage screen;
 
 private slots:
-	//sloat for the save imaje push button
+	//slot for the save imaje push button
 	void takePictureEvent();
 	//Display video frame in player UI
 	void updatePlayerUI(QImage img);
-	//sloat for combobox, choose camera for video input
+	//slot for combobox, choose camera for video input
 	void onItemChange();
+	//slot for change mode of video
+	void  changeMirrorState();
 };
 
 #endif // WEBCAMAPP_H

@@ -22,6 +22,7 @@ void CamPlayer::run()
 		if (VI.isFrameNew(deviceId)) {
 			IplImage * img  = cvCreateImage(cvSize(VI.getWidth(deviceId), VI.getHeight(deviceId)), IPL_DEPTH_8U, 3);
 			VI.getPixels(deviceId, (unsigned char *)img->imageData, false, true);
+			img = overwork(img);
 			emit processedImage(IplImage2QImage(img));
 		}
 	}
@@ -42,7 +43,6 @@ bool CamPlayer::changeCam(int camID)
 		VI.setupDevice(camID, 1280, 960, VI_COMPOSITE);
 		VI.setIdealFramerate(camID, 15);
 		deviceId = camID;
-		frameRate = 30;//standart fps in videoInput lib
 		return true;
 	}
 
@@ -65,16 +65,11 @@ bool CamPlayer::isStopped() const
 	return this->stop;
 }
 
-bool CamPlayer::captured(cv::Mat image,int deviceId)
+
+void CamPlayer::setMirrorMode(bool mode)
 {
-	IplImage * img = cvCreateImage(cvSize(VI.getSize(deviceId), VI.getHeight(deviceId)), IPL_DEPTH_8U, 3);
-	bool f = VI.getPixels(deviceId, (unsigned char *)img->imageData, false, true);
-	image = cv::cvarrToMat(img);
-	cvReleaseImage(&img);
-	return f;
+	mirrorMode = mode;
 }
-
-
 
 static QImage IplImage2QImage(const IplImage *iplImage)
 {
@@ -89,4 +84,10 @@ static QImage IplImage2QImage(const IplImage *iplImage)
 	else {
 		return QImage();
 	}
+}
+
+IplImage * CamPlayer::overwork(IplImage * img)
+{
+	if (mirrorMode) cvFlip(img,img, 1);
+	return img;
 }

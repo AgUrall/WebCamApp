@@ -20,6 +20,8 @@ WebCamApp::WebCamApp(QWidget *parent)
 	connect(ui.comboBox, SIGNAL(currentIndexChanged(QString)), this, SLOT(onItemChange()));
 	myPlayer->changeCam(0);
 	myPlayer->startVideo();
+	QObject::connect(ui.checkBox,SIGNAL(toggled(bool)), this, SLOT(changeMirrorState()));
+	ui.checkBox->setChecked(true);
 }
 
 WebCamApp::~WebCamApp()
@@ -69,3 +71,8 @@ void WebCamApp::onItemChange()
 	myPlayer->changeCam(cams[currentIndex]);
 }
 
+void  WebCamApp::changeMirrorState()
+{
+	if(ui.checkBox->isChecked())myPlayer->setMirrorMode(true);
+	else myPlayer->setMirrorMode(false);
+}

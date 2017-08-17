@@ -16,10 +16,10 @@ class CamPlayer : public QThread
 	bool stop;
 	QMutex mutex;
 	QWaitCondition condition;
-	int frameRate;
 	cv::VideoCapture capture;
 	videoInput VI;
 	QImage img;
+	bool mirrorMode = false;
 	int deviceId = -1;
 signals:
 	//Signal to output frame to be displayed
@@ -30,10 +30,11 @@ protected:
 public:
 	CamPlayer(QObject * parent = 0 );
 	~CamPlayer();
+	IplImage * overwork(IplImage * img);
 	bool changeCam(int camID);
 	void startVideo();
 	void stopVideo();
 	bool isStopped() const;
-	bool captured(cv::Mat image, int deviceId);
+	void setMirrorMode(bool mode);
 };
 #endif

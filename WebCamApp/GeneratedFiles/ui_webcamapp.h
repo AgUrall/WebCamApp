@@ -13,7 +13,9 @@
 #include <QtWidgets/QAction>
 #include <QtWidgets/QApplication>
 #include <QtWidgets/QButtonGroup>
+#include <QtWidgets/QCheckBox>
 #include <QtWidgets/QComboBox>
+#include <QtWidgets/QFrame>
 #include <QtWidgets/QGroupBox>
 #include <QtWidgets/QHeaderView>
 #include <QtWidgets/QLabel>
@@ -28,49 +30,57 @@ class Ui_WebCamAppClass
 public:
     QWidget *centralWidget;
     QComboBox *comboBox;
-    QLabel *label;
     QGroupBox *groupBox;
-    QLabel *label_2;
     QPushButton *pushButton;
+    QLabel *label_2;
+    QCheckBox *checkBox;
+    QFrame *line;
 
     void setupUi(QMainWindow *WebCamAppClass)
     {
         if (WebCamAppClass->objectName().isEmpty())
             WebCamAppClass->setObjectName(QStringLiteral("WebCamAppClass"));
-        WebCamAppClass->resize(634, 345);
-        WebCamAppClass->setMinimumSize(QSize(634, 345));
-        WebCamAppClass->setMaximumSize(QSize(634, 345));
+        WebCamAppClass->resize(634, 427);
+        WebCamAppClass->setMinimumSize(QSize(634, 427));
+        WebCamAppClass->setMaximumSize(QSize(634, 427));
         centralWidget = new QWidget(WebCamAppClass);
         centralWidget->setObjectName(QStringLiteral("centralWidget"));
         comboBox = new QComboBox(centralWidget);
         comboBox->setObjectName(QStringLiteral("comboBox"));
         comboBox->setGeometry(QRect(10, 10, 331, 21));
-        label = new QLabel(centralWidget);
-        label->setObjectName(QStringLiteral("label"));
-        label->setGeometry(QRect(20, 310, 431, 31));
-        QFont font;
-        font.setPointSize(14);
-        font.setBold(true);
-        font.setWeight(75);
-        label->setFont(font);
         groupBox = new QGroupBox(centralWidget);
         groupBox->setObjectName(QStringLiteral("groupBox"));
-        groupBox->setGeometry(QRect(0, 310, 651, 41));
+        groupBox->setGeometry(QRect(-10, 380, 651, 51));
         groupBox->setStyleSheet(QStringLiteral("background-color: rgb(255, 250, 190);"));
+        pushButton = new QPushButton(groupBox);
+        pushButton->setObjectName(QStringLiteral("pushButton"));
+        pushButton->setGeometry(QRect(220, 10, 211, 32));
+        pushButton->setStyleSheet(QLatin1String("background-color: rgb(255, 255, 255);\n"
+"border-color: rgb(67, 67, 67);\n"
+"font: 75 10pt \"Nirmala UI\";\n"
+""));
         label_2 = new QLabel(centralWidget);
         label_2->setObjectName(QStringLiteral("label_2"));
-        label_2->setGeometry(QRect(60, 40, 511, 261));
+        label_2->setGeometry(QRect(50, 40, 531, 331));
         label_2->setAutoFillBackground(false);
         label_2->setStyleSheet(QStringLiteral("background-color: rgb(0, 0, 0);"));
-        pushButton = new QPushButton(centralWidget);
-        pushButton->setObjectName(QStringLiteral("pushButton"));
-        pushButton->setGeometry(QRect(490, 310, 131, 31));
+        checkBox = new QCheckBox(centralWidget);
+        checkBox->setObjectName(QStringLiteral("checkBox"));
+        checkBox->setGeometry(QRect(350, 10, 121, 21));
+        QFont font;
+        font.setPointSize(10);
+        checkBox->setFont(font);
+        line = new QFrame(centralWidget);
+        line->setObjectName(QStringLiteral("line"));
+        line->setGeometry(QRect(0, 370, 631, 21));
+        line->setFrameShape(QFrame::HLine);
+        line->setFrameShadow(QFrame::Sunken);
         WebCamAppClass->setCentralWidget(centralWidget);
         groupBox->raise();
         comboBox->raise();
-        label->raise();
         label_2->raise();
-        pushButton->raise();
+        checkBox->raise();
+        line->raise();
 
         retranslateUi(WebCamAppClass);
 
@@ -80,10 +90,10 @@ public:
     void retranslateUi(QMainWindow *WebCamAppClass)
     {
         WebCamAppClass->setWindowTitle(QApplication::translate("WebCamAppClass", "WebCamApp", 0));
-        label->setText(QApplication::translate("WebCamAppClass", "\320\227\320\264\320\265\321\201\321\217 \320\274\320\276\320\263\320\273\320\260 \320\261\321\213 \320\261\321\213\321\202\321\214 \320\262\320\260\321\210\320\260 \321\200\320\265\320\272\320\273\320\260\320\274\320\260", 0));
         groupBox->setTitle(QString());
-        label_2->setText(QApplication::translate("WebCamAppClass", "TextLabel", 0));
         pushButton->setText(QApplication::translate("WebCamAppClass", "Take photo", 0));
+        label_2->setText(QApplication::translate("WebCamAppClass", "TextLabel", 0));
+        checkBox->setText(QApplication::translate("WebCamAppClass", "Mirror Mode", 0));
     } // retranslateUi
 
 };
